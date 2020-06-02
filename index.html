@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="navigationBar" class="container-fluid fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col-md-3 col-xs-12">
+          <a class="navbar-brand company-logo" href="#">LOGO</a>
+          <button
+            class="navbar-toggler float-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <div
+          id="navItemMenu"
+            class="d-flex flex-column justify-content-center align-items-end"
+          >
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#heroSection"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#videoSection">How it works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ServiceSection"
+                    >Cardiac diagnostic</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactSection">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="wrapper">
+      <div
+        id="heroSection"
+        class="hero-section d-flex justify-content-center align-items-center"
+      >
+        <div class="caption">
+          <h1>X-ray Service</h1>
+          <p>
+            We are powerful browser-based, all encompassing multi-modality
+            medical viewer. It provides a consolidated work list and an easy to
+            use universal viewer with a full spectrum of diagnostics and
+            reporting tools - all from a single login.
+          </p>
+          <p>
+            <a href="#" class="hvr-shutter-out-horizontal">Request Quote</a>
+            <a href="#" class="hvr-shutter-out-horizontal on-right"
+              >Learn More</a
+            >
+          </p>
+          <div class="ic-scroll">
+            <img src="img/scroll-ic.svg" alt="" />
+          </div>
+          <article class="container-absolute">
+            <img
+              class="right-img four-frame right-up"
+              src="img/hero/brain.png"
+            />
+            <img
+              class="right-img four-frame right-down"
+              src="img/hero/ultrasound2.png"
+            />
+            <img
+              class="left-img four-frame left-up"
+              src="img/hero/stomach.png"
+            />
+            <img
+              class="left-img four-frame left-down"
+              src="img/hero/ultrasound.png"
+            />
+          </article>
+        </div>
+      </div>
+
+      <section
+        id="videoSection"
+        class="video-section d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="title text-white">
+          <h3>How it works</h3>
+        </div>
+
+        <div
+          class="video-frame animate__animated animate__fadeOut"
+          style="background-image: url(img/video-thumbnail.jpg);"
+        >
+          <div class="overlay">
+            <img src="img/play-ic.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="ServiceSection" class="services-section">
+        <div class="container">
+          <div class="title">
+            <h3>Our Services</h3>
+            <p>
+              We provide variety of online medical services ranging from x-ray,
+              Radiology to Cardiology inspection technique right in your
+              fingertip
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card custom-card">
+                <div class="icon-top">
+                  <div class="row">
+                    <div class="col-md-6 col-xs-6 main-ic">
+                      <img src="img/services/x-ray.svg" />
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                      <span class="num-text">01</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">X-ray</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card">
+                <div class="icon-top">
+                  <div class="row">
+                    <div class="col-md-6 col-xs-6 main-ic">
+                      <img src="img/services/radiography.svg" />
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                      <span class="num-text">02</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Radiology</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card">
+                <div class="icon-top">
+                  <div class="row">
+                    <div class="col-md-6 col-xs-6 main-ic">
+                      <img src="img/services/heart.svg" />
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                      <span class="num-text">03</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Cardiology</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="moralitySection" class="moralities-section bg-black">
+        <div class="container">
+          <div class="title text-white">
+            <h3>Cardiac Moralities</h3>
+            <p>
+              We provide variety of online medical services ranging from x-ray,
+              Radiology to Cardiology inspection technique right in your
+              fingertip
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card custom-card no-shadow">
+                <div class="main-img">
+                  <img src="img/moralities/ecg.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center"><a href="#">ECG</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card no-shadow">
+                <div class="main-img">
+                  <img src="img/moralities/ABP.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center"><a href="#">ABP</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card no-shadow">
+                <div class="main-img">
+                  <img src="img/moralities/stress-test.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    <a href="#">Stress Test</a>
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card no-shadow">
+                <div class="main-img">
+                  <img src="img/moralities/ABP.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center"><a href="#">ABP</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card no-shadow">
+                <div class="main-img">
+                  <img src="img/moralities/stress-test.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    <a href="#">Stress Test</a>
+                  </h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card custom-card no-shadow">
+                <div class="main-img">
+                  <img src="img/moralities/ecg.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center"><a href="#">ECG</a></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat odit tempore esse.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="client-section">
+        <div class="row">
+          <div class="col-md-5 col-xs-12">
+            <div class="pd-xl">
+              <div class="title left text-left no-width">
+                <h3>Our Clients</h3>
+              </div>
+              <h4 class="mt-4 mb-4">We have clients around world</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+                magni, dolores voluptate facilis, laborum nulla saepe inventore,
+                est cupiditate porro excepturi. Excepturi quos quae facere.
+                Minus magnam obcaecati adipisci tenetur!
+              </p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+                magni, dolores voluptate facilis, laborum nulla saepe inventore,
+                est cupiditate porro excepturi. Excepturi quos quae facere.
+                Minus magnam obcaecati adipisci tenetur!
+              </p>
+              <p>
+                <a href="#" class="hvr-shutter-out-horizontal custom-btn-lg"
+                  >Learn More</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-xs-12">
+            <img src="img/world-map.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contactSection" class="contact-section">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <form class="custom-form">
+              <h3>Contact Us</h3>
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="80"
+                  rows="4"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-block">Submit</button>
+            </form>
+          </div>
+
+          <div class="col-md-6 col-xs-12">
+            <div class="contact-secondary">
+              <h3 class="text-right text-white mb-4">Get in touch with Us</h3>
+              <img src="img/doctor-video-call.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-white">
+            <div class="footer-text">
+              <h4>About</h4>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis, nihil suscipit! Hic consequatur odit explicabo error
+                voluptas quia natus obcaecati sed! Quis consequatur nihil
+                reiciendis mollitia sed in ipsa! Commodi.
+              </p>
+              <div class="social-icons">
+                <p class="mt-4"><strong>Follow Us</strong></p>
+                <a href="#"
+                  ><img src="img/social-icons/facebook.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="img/social-icons/twitter.svg" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="img/social-icons/instagram.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 offset-md-2">
+            <h4 class="text-white">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#">Cardiography</a></li>
+              <li><a href="#">Radiology</a></li>
+              <li><a href="#">X-ray</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h4 class="text-white">Downloads</h4>
+            <ul class="footer-links">
+              <li><a href="#">Cardiography</a></li>
+              <li><a href="#">Radiology</a></li>
+              <li><a href="#">X-ray</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center copyright-text">
+            <p><small>Company Name &copy; 2019. All Rights Reserved</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script>
+      // sticky header
+      $(document).ready(function () {
+        if ($(window).width() < 700){
+            $('#navItemMenu').removeClass('d-flex flex-column justify-content-center align-items-end');
+          }
+          
+        setTimeout(function () {
+          $(".left-img").addClass("slideFromLeft");
+          $(".right-img").addClass("slideFromRight");
+        }, 500);
+      });
+
+      $('a[href^="#"]').bind("click.smoothscroll", function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+          $target = $(target);
+        if (typeof $target.offset() != "undefined") {
+          $("html, body")
+            .stop()
+            .animate(
+              {
+                scrollTop: $target.offset().top - 40,
+              },
+              900,
+              "swing",
+              function () {
+                window.location.hash = target;
+              }
+            );
+        }
+      });
+
+      $(".video-section").waypoint(
+        function (direction) {
+          if (direction == "down") {
+            $("#navigationBar").addClass("sticky-header");
+          } else {
+            $("#navigationBar").removeClass("sticky-header");
+          }
+        },
+        { offset: "100%" }
+      );
+
+      $(".video-section").waypoint(
+        function () {
+          $(".video-frame").removeClass("animate__animated animate__fadeOut");
+          $(".video-frame").addClass("animate__animated animate__fadeInUp");
+        },
+        { offset: "25%" }
+      );
+    </script>
+  </body>
+</html>
