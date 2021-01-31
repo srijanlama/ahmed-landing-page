@@ -433,6 +433,10 @@ footer {
   right: -40vw;
   transition: 0.8s ease-in-out;
 }
+.footer-branding {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 600px) {
   .container-absolute {
