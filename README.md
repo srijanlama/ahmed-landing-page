@@ -6,7 +6,7 @@ Ahmed landing Page (Standard Version)
 Github Page Deployment
 -------
 
-For live sample <a target="_blank" href="https://srijanlama.github.io/ahmed-landing-page/">click Here<a/>
+For live sample <a target="_blank" href="https://srijanlama.github.io/ahmed-landing-page/">click here<a/>
 
 
 Authors
